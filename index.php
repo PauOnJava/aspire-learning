@@ -9,11 +9,12 @@ include("includes/header.php"); ?>
     <h3 class="text-white">
         <?greetings();?>, <?=$_SESSION['prenume']?>!
     </h3>
-    <hr>
+    <hr class="border-light">
+    <h3 class="mx-5 text-light">Cursuri disponibile</h4>
     <div class="row p-5">
         <div class="col-12 col-md-3 mb-3">
-            <div class="card" aria-hidden="true">
-            <img src="media/Sample_User_Icon.png" class="card-img-top placeholder-glow " alt="...">
+            <div class="card bg-dark" aria-hidden="true">
+            <img src="media/C++.svg" class="card-img-top placeholder-glow " alt="...">
                 <div class="card-body">
                     <h5 class="card-title placeholder-glow">
                         <span class="placeholder col-6"></span>
@@ -30,8 +31,8 @@ include("includes/header.php"); ?>
             </div>
         </div>
         <div class="col-12 col-md-3 mb-3">
-            <div class="card" aria-hidden="true">
-            <img src="media/Sample_User_Icon.png" class="card-img-top placeholder-glow " alt="...">
+            <div class="card bg-dark" aria-hidden="true">
+            <img src="media/Java.svg" class="card-img-top placeholder-glow " alt="...">
                 <div class="card-body">
                     <h5 class="card-title placeholder-glow">
                         <span class="placeholder col-6"></span>
@@ -48,8 +49,8 @@ include("includes/header.php"); ?>
             </div>
         </div>
         <div class="col-12 col-md-3 mb-3">
-            <div class="card" aria-hidden="true">
-            <img src="media/Sample_User_Icon.png" class="card-img-top placeholder-glow " alt="...">
+            <div class="card bg-dark" aria-hidden="true">
+            <img src="media/JS.svg" class="card-img-top placeholder-glow " alt="...">
                 <div class="card-body">
                     <h5 class="card-title placeholder-glow">
                         <span class="placeholder col-6"></span>
@@ -66,8 +67,8 @@ include("includes/header.php"); ?>
             </div>
         </div>
         <div class="col-12 col-md-3 mb-3">
-            <div class="card" aria-hidden="true">
-                <img src="media/Sample_User_Icon.png" class="card-img-top placeholder-glow " alt="...">
+            <div class="card bg-dark" aria-hidden="true">
+                <img src="media/WebDvlpm.svg" class="card-img-top placeholder-glow " alt="...">
                 <div class="card-body">
                     <h5 class="card-title placeholder-glow">
                         <span class="placeholder col-6"></span>

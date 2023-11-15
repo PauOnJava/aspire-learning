@@ -37,7 +37,22 @@
                                             <label class="form-label" for="form2Example22">Parola</label>
                                             <input type="password" name="password" id="form2Example22" class="form-control" required placeholder="Parola ta" />
                                         </div>
-
+                                        <?
+                                            if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+   
+                                                if (isset($_GET['errorunknown'])){?>
+                                            <div class="alert alert-danger" role="alert">
+                                                Email si/sau parola gresite!
+                                            </div>
+                                            <?
+                                                }
+                                            else if (isset($_GET['errorwrong'])){?>
+                                                <div class="alert alert-danger" role="alert">
+                                                    Parola incorecta!
+                                                </div>
+                                                <?
+                                            }}
+                                            ?>
                                         <div class="text-center pt-1 mb-5 pb-1">
                                             <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit">Intra in cont</button>
 
@@ -46,6 +61,9 @@
                                         <div class="d-flex align-items-center justify-content-center pb-4">
                                             <p class="mb-0 me-2">Nu ai cont?</p>
                                             <a type="button" href="signup.php" class="btn btn-outline-primary">Creaza cont nou</a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center pb-4">
+                                            <a  href="affiliate-signup.php" class="text-decoration-none" class="text-primary">Devino partener</a>
                                         </div>
 
                                     </form>
@@ -66,9 +84,9 @@
             </div>
         </div>
     </section>
-    <footer class="mt-5 pt-5 bg-dark text-light w-100 tot rounded text-center">
+    <footer class="mt-5 bg-dark text-light w-100 tot rounded text-center">
 
-        © Crabiisoft S.R.L.
+    © 2023 Made with ❤ by Crabiisoft 🦀 S.R.L. 
     </footer>
 
 </html>

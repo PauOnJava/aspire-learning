@@ -101,7 +101,7 @@
     </section>
     <footer class="mt-5 pt-5 bg-dark text-light w-100 tot rounded text-center">
 
-© Crabiisoft S.R.L.
+    © 2023 Made with ❤ by Crabiisoft 🦀 S.R.L. 
 </footer>
 </body>
 

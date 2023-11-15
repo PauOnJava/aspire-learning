@@ -13,8 +13,7 @@ if ($result->num_rows > 0) {
     header('Location: signup.php?already=1');
 } 
  else{
-    $timestamp = time();
-    $dateAndTime = date("Y-m-d H:i:s", $timestamp);
+    $dateAndTime = date("Y-m-d H:i:s");
     $sql = "INSERT INTO account (email, password, nume, prenume,register_date) VALUES ('$email', '$password', '$nume', '$prenume','$dateAndTime');";
     if(mysqli_query($conn, $sql)){
         header('Location: index.php');

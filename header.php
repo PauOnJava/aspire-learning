@@ -7,7 +7,7 @@ include("includes/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aspire - Home</title>
+    <title>Aspire</title>
     <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -36,27 +36,25 @@ include("includes/functions.php");
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Somethinh</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                sad
+                                Metrice
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-light" href="profile.php">Informații profil</a></li>
-                                <li><a class="dropdown-item text-light" href="#">Recenzii</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Interactiuni</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Statistici</a></li>
                                 <li>
                                     <hr class="dropdown-divider bg-light">
                                 </li>
-                                <li><a class="dropdown-item text-light" href="logout.php">Deconectare</a></li>
+                                <li><a class="dropdown-item text-light" href="*">Cursuri</a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="#"><img src="media/Sample_User_Icon.png" height="40" alt="404"
+                            <a class="nav-link" href="profile.php?profile=1"><img src="media/Sample_User_Icon.png" height="40" alt="404"
                                     class="rounded-circle"></a>
                         </li>
                         <li class="nav-item align-self-center">
